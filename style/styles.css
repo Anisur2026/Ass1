@@ -60,7 +60,7 @@ nav ul {
      width: 100%;
     max-width: 1920px;
     background-image:url(../B13-A01-Knowledge-Vault/assets/hero-bg.png) ;
-    height: 700px;
+    height: 800px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -275,7 +275,7 @@ p{
     display:flex;
     justify-content: center;
     align-items: center;
-    margin-left: 270px;
+    margin-left: 350px;
     margin-top: 120px;
     gap: 60px;
 }
