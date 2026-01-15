@@ -1,6 +1,6 @@
 #heading{
-    width: 83%;
-    max-width: 1600px;
+    width: 100%;
+    max-width: 1920px;
     height: 93px;
     margin: auto;
     display: flex;
@@ -146,4 +146,156 @@ p{
     vertical-align: middle;
     margin-right: 8px;
      display:inline-block;
+} 
+  #notes-container img {
+    width: 25px !important;
+    height: 25px !important;
+    display: inline-block;
+    margin: 15px;
+    padding:8px;
+    border:2px solid #ff4d4d;
+    background-color:#ff4d4d;
+    object-fit: contain;
+    border-radius: 50%;
+
 }
+#notes-container{
+    width: 100%;
+    max-width: 1920px;
+
+}
+.notes{
+    width: 550px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 50px;;
+
+}
+.notes h1{
+    font-size: 40px;
+    font-weight: 700px;
+    color:#000000;
+    line-height: 20px;
+}
+.notes p{
+    font-size: 15px;
+    color: #627382;
+ 
+}
+.card{
+    display: flex;
+    margin:0px, auto;
+    justify-content: center;
+    align-items: center;
+}
+.card-scatt{
+    width: 240px;
+    height: 230px;
+    justify-content: center;
+    align-items: center;
+    box-shadow:#627382;
+    margin-top: 90px;
+    margin-left: 80px;
+    background-color:floralwhite;
+    border-radius: 10px;
+    text-align: center;
+    padding: auto;
+
+
+}
+.card-scatt p{
+    color: #627382;
+    font-size: 16px;
+}
+.bookmark{
+    width: 240px;
+    height: 230px;
+    justify-content: center;
+    align-items: center;
+    box-shadow:#627382;
+    margin-top: 90px;
+    margin-left: 80px;
+    background-color:floralwhite;
+    border-radius: 10px;
+    text-align: center;
+    padding: auto;
+
+
+}
+.bookmark p{
+    color: #627382;
+    font-size: 16px;
+}
+.card-idea{
+    width: 240px;
+    height: 230px;
+    justify-content: center;
+    align-items: center;
+    box-shadow:#627382;
+    margin-top: 90px;
+    margin-left: 80px;
+    background-color:floralwhite;
+    border-radius: 10px;
+    text-align: center;
+    padding: auto;
+
+
+}
+.card-idea p{
+    color: #627382;
+    font-size: 16px;
+}
+.forget{
+    width: 240px;
+    height: 230px;
+    justify-content: center;
+    align-items: center;
+    box-shadow:#627382;
+    margin-top: 90px;
+    margin-left: 80px;
+    background-color:floralwhite;
+    border-radius: 10px;
+    text-align: center;
+    padding: auto;
+
+
+}
+.forget p{
+    color: #627382;
+    font-size: 16px;
+}
+#solution{
+    width: 100%;
+    max-width: 1920px;
+
+}
+.solution-container{
+    width: 1100px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 270px;
+    margin-top: 120px;
+    gap: 60px;
+}
+.text p{
+    font-size: 13px;
+    color: #469165;
+}
+.text h1{
+    font-size: 45px;
+    line-height: 20px;
+}
+.text .pera{
+    font-size: 14px;
+    color: #627382;
+}
+.text h6{
+    font-size: 15px;
+    
+}
+
+
+
+
