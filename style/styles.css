@@ -58,7 +58,7 @@ nav ul li:first-child{
     
 }
 #hero{
-    
+    width: 100%;
     background-image:url(../B13-A01-Knowledge-Vault/assets/hero-bg.png) ;
     height: 800px;
     background-repeat: no-repeat;
@@ -158,6 +158,7 @@ nav ul li:first-child{
 
 }
 #notes-container{
+    width: 100%;
    
 
 }
@@ -268,6 +269,9 @@ nav ul li:first-child{
     color: #627382;
     font-size: 16px;
 }
+#solution{
+    width: 100%;
+}
 
 
 .solution-container{
@@ -299,7 +303,7 @@ nav ul li:first-child{
     
 }
 #think-clear{
-    
+     width: 100%;
      justify-content: center;
     align-items: center;
     margin-bottom: 80px;
@@ -327,7 +331,7 @@ nav ul li:first-child{
     
 }
 #foter{
-   
+    width: 100%;
     height: 300px;
     background-color:#001931;
     justify-content: center;
