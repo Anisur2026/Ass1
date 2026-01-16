@@ -57,8 +57,7 @@ nav ul li:first-child{
     position: static
     
 }
-#hero{
-    width: 100%;
+#hero{ 
     background-image:url(../B13-A01-Knowledge-Vault/assets/hero-bg.png) ;
     height: 800px;
     background-repeat: no-repeat;
@@ -66,8 +65,8 @@ nav ul li:first-child{
     background-size: cover;
     margin: auto;
 }
-#hero .hero-container{
-  
+.hero-container{
+  width: 100%;
     margin: auto;
 
 }
@@ -145,6 +144,9 @@ nav ul li:first-child{
     margin-right: 8px;
      display:inline-block;
 } 
+.cont{
+    width: 100%;
+}
   #notes-container img {
     width: 25px !important;
     height: 25px !important;
@@ -157,11 +159,7 @@ nav ul li:first-child{
     border-radius: 50%;
 
 }
-#notes-container{
-    width: 100%;
-   
 
-}
 .notes{
     width: 550px;
     justify-content: center;
@@ -269,12 +267,9 @@ nav ul li:first-child{
     color: #627382;
     font-size: 16px;
 }
-#solution{
-    width: 100%;
-}
-
 
 .solution-container{
+    width: 100%;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -303,12 +298,12 @@ nav ul li:first-child{
     
 }
 #think-clear{
-     width: 100%;
      justify-content: center;
     align-items: center;
     margin-bottom: 80px;
 }
 .think-container{
+    width: 100%;
     height: 300px;
     justify-content: center;
     text-align: center;
@@ -330,8 +325,10 @@ nav ul li:first-child{
     
     
 }
-#foter{
+.foter-container{
     width: 100%;
+}
+#foter{
     height: 300px;
     background-color:#001931;
     justify-content: center;
