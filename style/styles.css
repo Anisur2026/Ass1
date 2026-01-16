@@ -1,21 +1,27 @@
 #heading{
-   
     height: 93px;
-    margin: auto;
     display: flex;
-    justify-content: center;
     align-items: center;
-    position :relative;
-   
-    
+    height: 93px;
+    display: flex;
+    align-items: center;
+}
+nav{
+    width: 100%;
 }
 nav ul {
-    list-style: none;
+   list-style: none;
     display: flex;
+    align-items: center;
     gap: 32px;
-    
-    padding: 0;
-     background-color: #FFFFFF;
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 24px;
+    background-color: #FFFFFF;
+}
+nav ul li:last-child{
+    margin-left: auto;
 }
 #heading ul li a{
     text-decoration: none;
@@ -24,23 +30,21 @@ nav ul {
     color:#000000;
     margin:auto;
     margin-bottom: 24px;
-   
-    
 }
 #heading .btn{
-    padding: 12px 16px;
-    background-color:green;
-    margin:auto;
+      padding: 12px 16px;
     width: 164px;
-    height: 44px;
-    border: none;
+    height:44px;
+    border:none;
     border-radius: 4px;
     color: white;
+    background-color: green;
     cursor: pointer;
-    
-    position: absolute;
-    right: 120px; 
-
+    position: static; 
+    margin: 0; 
+}
+nav ul li:first-child{
+    margin-right: auto;
 }
 #heading .btn:hover{
     background-color: darkgreen;
@@ -48,11 +52,9 @@ nav ul {
 #heading ul li img{
     width: 140px;
     height: auto;
-    margin-right: auto;
+    margin-right: 0px;
     margin-left: 0px;
-    position: absolute;
-    left:120px;
-   
+    position: static
     
 }
 #hero{
@@ -71,7 +73,7 @@ nav ul {
 }
 .hero-text{
     text-align:center;
-    line-height: 0px;
+    line-height:normal;
     
 }
 .bt{
@@ -104,7 +106,7 @@ nav ul {
     color:#469165;
 
 }
-p{
+#hero p{
     font-size: 18px;
     color: #FFFFFF;
     line-height: 15px;
@@ -117,8 +119,6 @@ p{
     cursor: pointer;
     border: none;
     display:inline-block;
-    
-
 }
 .vault:hover{
     color:bisque;
@@ -132,7 +132,7 @@ p{
     color:#FFFFFF;
     
 }
-.see :hover{
+.see:hover{
     color:aliceblue ;
 }
 .traingle{
@@ -182,22 +182,27 @@ p{
 }
 .card{
     display: flex;
-    margin:0px, auto;
+    margin: 0 auto;
     justify-content: center;
     align-items: center;
+    gap:10px;
+    flex-wrap: wrap;
 }
 .card-scatt{
     width: 240px;
     height: 230px;
     justify-content: center;
     align-items: center;
-    box-shadow:#627382;
+     box-shadow: 0 4px 12px rgba(0,0,0,0.1);
     margin-top: 90px;
     margin-left: 80px;
     background-color:floralwhite;
     border-radius: 10px;
     text-align: center;
-    padding: auto;
+    padding: 16px;
+    
+
+    
 
 
 }
@@ -210,13 +215,13 @@ p{
     height: 230px;
     justify-content: center;
     align-items: center;
-    box-shadow:#627382;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
     margin-top: 90px;
     margin-left: 80px;
     background-color:floralwhite;
     border-radius: 10px;
     text-align: center;
-    padding: auto;
+    padding: 16px;
     
 
 
@@ -230,13 +235,13 @@ p{
     height: 230px;
     justify-content: center;
     align-items: center;
-    box-shadow:#627382;
+     box-shadow: 0 4px 12px rgba(0,0,0,0.1);
     margin-top: 90px;
     margin-left: 80px;
     background-color:floralwhite;
     border-radius: 10px;
     text-align: center;
-    padding: auto;
+    padding: 16px;
 
 
 }
@@ -249,13 +254,13 @@ p{
     height: 230px;
     justify-content: center;
     align-items: center;
-    box-shadow:#627382;
+     box-shadow: 0 4px 12px rgba(0,0,0,0.1);
     margin-top: 90px;
     margin-left: 80px;
     background-color:floralwhite;
     border-radius: 10px;
     text-align: center;
-    padding: auto;
+    padding: 16px;
 
 
 }
@@ -266,13 +271,16 @@ p{
 
 
 .solution-container{
-    width: 1100px;
     display:flex;
     justify-content: center;
     align-items: center;
-    margin-left: 250px;
-    margin-top: 120px;
+    margin: 120px auto;
     gap: 60px;
+    max-width: 1100px;
+    
+
+    padding: 0 20px;
+  
 }
 .text p{
     font-size: 13px;
@@ -297,12 +305,14 @@ p{
     margin-bottom: 80px;
 }
 .think-container{
-    width: 1120px;
     height: 300px;
     justify-content: center;
     text-align: center;
     background-color:#F7F6F2;
-    margin-left: 300px;
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 20px;
+   
 
 }
 .think-container .container{
@@ -314,6 +324,7 @@ p{
     color: #627382;
     line-height: 24px;
     
+    
 }
 #foter{
    
@@ -321,26 +332,32 @@ p{
     background-color:#001931;
     justify-content: center;
      position: relative;
+      text-align: center;
     
 }
 .foter-img{
     display: flex;
-    justify-content:center;
     align-items: center;
     position: relative;
+    justify-content: space-between;
+    max-width: 1100px;
+    margin: auto
 
 }
 #foter img{
-    
-      padding-left: 20px;
-  padding-top: 60px;
+
+    max-width: 1100px;
+    margin: auto;
+    padding: 60px 20px;
 }
 .social{
-padding-left: 750px;
-padding-top: 60px;
+padding-left:0;
 
    
 
+}
+.link{
+    color: #FAFAFA;
 }
 .x{
     border-radius: 50%;
@@ -370,10 +387,13 @@ padding-top: 60px;
   margin-right:10px;
 }
 footer p{
-  margin-left: 600px;
   margin-top: 80px;
   color: #FAFAFA;
   font-size: 16px;
+  position: relative;
+  margin: 80px 0 0;
+  font-size: 16px;
+  text-align: center;
 
 }
 
