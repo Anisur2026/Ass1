@@ -290,15 +290,14 @@ nav ul li:first-child{
     align-items: center;
     margin:auto;
     gap: 60px;
-    padding: 0 16px;
-  
 }
  .image{
     width:37.5%;
     max-width: 600px;
-    margin-top: 100px;
+    margin:auto;
 }
 .text{
+    width: 43.75%;
     max-width:700px;
     height:396px;
     justify-content: center;
@@ -337,12 +336,11 @@ nav ul li:first-child{
     width: 85%;
     max-width: 1360px;
     justify-content: center;
-    height: 350px;
     text-align: center;
     background-color:#F7F6F2;
     margin:auto;
     border-radius: 12px;
-    margin-bottom: 120px;
+   
    
    
 
@@ -364,33 +362,20 @@ nav ul li:first-child{
 .think-container .vault{
     margin: 20px auto;
 }
-
 .foter-container{
     width: 100%;
     max-width: 1600px;
-    height:348px;
-    background-color:#001931;
+      background-color:#001931;
     margin: auto;
 
+    padding: 120px 120px 30px 120px;
 }
 
-.foter-img{
+.foter-top{
     display: flex;
-    align-items: center;
-    position: relative;
-    justify-content: space-between;
-     margin-left: 120px;
-     margin-top: 120px;
-    padding: 0 16px;
-
-}
-.social{
-margin-top: 120px ;
-margin-right: 120px;
-text-align: center;
-
-   
-
+    justify-content:space-between;
+    align-items:center;
+    margin:0px 120px 80px 120px;
 }
 .link{
     color: #FAFAFA;
@@ -427,10 +412,9 @@ text-align: center;
 footer p{
   color: #FAFAFA;
   font-size: 16px;
-  position: relative;
-  margin-top:60px;
-  font-size: 16px;
   text-align: center;
+  
+
 
 }
 hr{
@@ -438,6 +422,7 @@ hr{
     max-width: 1360px;
     color:#627382;
     margin: auto;
+    margin-bottom: 30px;
     align-items: center;
    
 }
